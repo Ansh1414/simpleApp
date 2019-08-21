@@ -1,4 +1,3 @@
 {
 	"electronics":["headphones","mobile","Laptop"]
 }
-
