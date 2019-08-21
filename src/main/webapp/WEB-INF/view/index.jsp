@@ -1,1 +1,4 @@
-{"animals":["majestic badger","fluffy bunny","scary bear","chicken"]}
+{
+  "animals":["majestic badger","fluffy bunny","scary bear","chicken"]
+}
+
