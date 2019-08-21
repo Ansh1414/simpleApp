@@ -35,7 +35,7 @@ public class HomeServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String path = request.getServletPath();
-		if (path.equals("/")){
+		if (path.equals("/index")){
 			List<Article> articles = articleDao.getAllArticles();
 			request.setAttribute("title", "Title of our application");
 			request.setAttribute("articles", articles);
